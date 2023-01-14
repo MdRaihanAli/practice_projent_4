@@ -1,0 +1,52 @@
+@media screen and (max-width:1279px) {
+
+    .container{
+        width: 100%;
+        /* padding: 5%; */
+    }
+    .logo{
+        font-size: 16px;
+    }
+    .bars{
+        display: block;
+    }
+    .mobail_col{
+        display: none;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .header_contents{
+        flex-direction: column-reverse;
+    }
+    .header_content{
+        text-align: center;
+        padding-right: 0;
+    }
+ 
+    .header_content h1{
+        text-align: center;
+    }
+    .populae_colecaton_content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collecton{
+        padding: 0;
+    }
+.fucher_container{
+    flex-direction: column-reverse;
+    gap: 40px;
+
+}
+.fucher_content{
+    text-align: center;
+}
+.fucher_img img{
+    width: 100%;
+}
+    
+    
+    
+ 
+
+}

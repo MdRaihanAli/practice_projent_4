@@ -1,0 +1,63 @@
+@media screen and (max-width:576px) {
+
+    .container {
+        width: 100%;
+        padding: 5%;
+    }
+    .nav{
+        margin-top: 10px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+    .header_content h1{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .header_content p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .mobail_col {
+        display: none;
+    }
+    .img_br {
+        width: 257px;
+        height: 257px;
+    }
+    .img_bg{
+        width: 150px;
+    height: 150px;
+    }
+    .populae_colecaton_content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
